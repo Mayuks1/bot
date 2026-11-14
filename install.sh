@@ -36,7 +36,7 @@ ascii_banner() {
     rainbow_line '| _ \ (_) || |   | |__ >  < (__  | _|| |) | |  | |  | | (_) | .` |'
     rainbow_line '|___/\___/ |_|   |____/_/\_\___| |___|___/___| |_| |___\___/|_|\_|'
     echo ""
-    rainbow_line '                    ~ Ask DEV ~'
+    rainbow_line '                    ~ MishhuCloud ~'
     echo ""
 }
 
