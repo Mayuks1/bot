@@ -442,9 +442,9 @@ def create_embed(title, description="", color=0x1a1a1a):
         description=truncate_text(description, 4096),
         color=color
     )
-    embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/1544963102586576997/1545073140772769904/e7e4a1b6901165e9f6b420322dd7ec39.jpg?ex=6ac6fb3e&is=6ac5a9be&hm=255bcdbe4ab4b3bc2bb3bf195c8db65fc6e0ba1baa7386f9be1a42faf3c4b717")
+    embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/1569006609827364904/1571006585650675744/MishhuCloud_Neon_Orbital_Logo.png?ex=6af92965&is=6af7d7e5&hm=7e6dcb6c4cde7140602922f64a163e033e5579a477227b40d87b09fd6be1d2e3&")
     embed.set_footer(text=f"{BOT_NAME} VPS Manager v{BOT_VERSION} • {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
-                     icon_url="https://cdn.discordapp.com/attachments/1544963102586576997/1545073140772769904/e7e4a1b6901165e9f6b420322dd7ec39.jpg?ex=6ac6fb3e&is=6ac5a9be&hm=255bcdbe4ab4b3bc2bb3bf195c8db65fc6e0ba1baa7386f9be1a42faf3c4b717")
+                     icon_url="https://cdn.discordapp.com/attachments/1569006609827364904/1571006585650675744/MishhuCloud_Neon_Orbital_Logo.png?ex=6af92965&is=6af7d7e5&hm=7e6dcb6c4cde7140602922f64a163e033e5579a477227b40d87b09fd6be1d2e3&")
     return embed
 
 def add_field(embed, name, value, inline=False):
